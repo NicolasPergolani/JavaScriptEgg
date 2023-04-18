@@ -1,8 +1,8 @@
 num1=5;
 num2=10;
+var letra=prompt("Ingrese una opcion")
 
-
-switch(prompt("ingrese el tipo de operacion a realizar ")){
+switch(letra.toLowerCase()){
 
     case 'R','r':
         console.log(`El resultado de la resta es igual a: ${num1-num2} o a la inversa ${num2-num1}`);
