@@ -4,17 +4,17 @@ var letra=prompt("Ingrese una opcion")
 
 switch(letra.toLowerCase()){
 
-    case 'R','r':
+    case 'r':
         console.log(`El resultado de la resta es igual a: ${num1-num2} o a la inversa ${num2-num1}`);
         break;
-    case 'S','s':
+    case 's':
         console.log(`El resultado de la suma es igual a: ${num1+num2}`);
         break;
 
-    case 'M','m':
+    case 'm':
         console.log(`El resultado de la multiplicacion es: ${num1*num2}`);
         break;
-    case 'D','d':
+    case 'd':
         console.log(`El resultado de la division es igual a: ${num1/num2} o a la inversa ${num2/num1}`);
         break;
 

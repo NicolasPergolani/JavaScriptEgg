@@ -1,6 +1,5 @@
 var numeros=new Array();
 var sum=0;
-
 while (num!=0){
     var num=parseInt(prompt("Ingrese un numero terminara cuando sea 0"));
     if(num==0){
@@ -9,8 +8,6 @@ while (num!=0){
         numeros.push(num);
         sum+=num;
     }
-  
-   
 }
 var max=Math.max(...numeros);
 var min=Math.min(...numeros);
